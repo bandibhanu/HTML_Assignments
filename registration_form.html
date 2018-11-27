@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+<title>application form</title>
+</head>
+<style>
+        body  {
+            background-image: url("2.jpg");
+        }
+        </style>
+        <body> 
+              
+               <form>
+        <h1 align="center"><p style="color:red;">Student Appication Form</p></h1>
+<center>first name:<input type="text" maxlength="25" pattern="[A-Za-z]{3}" title="fill in format" required></center><br>
+<center>Last name:<input type=¨text¨ maxlength=25 pattern=¨[A-Za-z]{3}  title="fill in format" required></center><br>
+<center><p>Address:</p></center>
+<center><textarea name="message" rows="10" cols="30" textmax=¨50¨></textarea>
+    <br><br>
+    
+           email id: <input type="email" placeholder="Enter your email" required>
+           
+            <br><br>
+    city:
+    <select>
+            <option value="HYDERABAD">HYDERABAD</option>
+            <option value="MUMBAI">MUMBAI</option>
+            <option value="DELHI">DELHI</option>
+            <option value="BENGALOOR">BENGALOOR</option>
+          </select><br><br>
+          States:
+          <select>
+              <option value=¨telangana¨>telangana</option>
+              <option value=¨maharastra¨>maharastra</option>
+              <option value>delhi</option>
+              <option value>karnataka</option>
+
+            </select><br><br>
+           phone number: <input type="text" pattern="\d{10}$" maxlength="10" minlength="10" title="exact 10 numbers" required><br><br>
+       Enrolled course: 
+       <select>
+           <option value>CSE</option>
+           <option value>ECE</option>
+           <option value>CIVIL</option>
+           <option value>MEC</option>
+           <option value>EEE</option>
+                   
+       </select><br><br>
+       date of exam:<input type="date"><br><br>
+       Writen text Marks:<input type="number" min="50" max="100" maxlength="3"><br><br>
+       <input type="submit" value="Submit">
+
+    <input type="reset" value="Reset">
+
+    </center>
+</form>
+        
+  
+</body>
+</html>
