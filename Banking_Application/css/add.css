@@ -2,3 +2,6 @@ h1{
     color: firebrick;
     font-style : italic;
 }
+form{
+    text-align: center;
+}
